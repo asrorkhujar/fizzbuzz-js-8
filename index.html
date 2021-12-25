@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS-8 | FizzBuzz</title>
+  <link rel="stylesheet" href="css/bootstrap5.min.css">
+</head>
+<body>
+
+  <!-- FIZZ-BUZZ -->
+  <div class="container d-flex flex-column align-items-center">
+    <h2 class="text-center text-secondary fw-bold display-3 my-4">FizzBuzz</h2>
+    <form class="js-form-fizz-buzz form" id="formFizzBuzz" action="https://echo.htmlacademy.ru" method="POST">
+      <div class="row">
+        <div class="col-md-6">
+          <input class="form-control js-form-amount" type="number" min="0" placeholder="Raqam kiriting:" id="inputAmountFizz" required>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0">
+          <button class="btn btn-success js-form-btn w-100" type="submit" id="formSubmitFizz">Natijani ko'rsatish</button>
+        </div>
+        <div class="col">
+          <output class="js-output-amount-fizz-buzz mt-4 d-flex justify-content-center display-1 text-warning fw-bold" id="outputAmountFizz"><span class="result-display"></span>Natija: </output>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="js/bootstrap5.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
