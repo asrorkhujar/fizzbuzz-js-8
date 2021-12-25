@@ -1,8 +1,8 @@
 //FizzBuzz
 //O'zgaruvchilarni topib olamiz
-var elForm = document.querySelector('.js-form-fizz-buzz');
-var elInputAmount = elForm.querySelector('.js-form-amount');
-var elOutput = elForm.querySelector('.js-output-amount-fizz-buzz');
+const elForm = document.querySelector('.js-form-fizz-buzz');
+const elInputAmount = elForm.querySelector('.js-form-amount');
+const elOutput = elForm.querySelector('.js-output-amount-fizz-buzz');
 
 //Formani ketib qolishini oldini olamiz
 elForm.addEventListener('submit', (evt) => {
