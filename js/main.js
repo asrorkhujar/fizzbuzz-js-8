@@ -13,11 +13,11 @@ elForm.addEventListener('submit', (evt) => {
     elOutput.textContent = 'FizzBuzz';
   }
   //Agar kiritilgan son 5 ga qoldiqiz bo'linsa ekranda Buzz so'zi chiqadi
-  else if (Number(elInputAmount.value % 5 ===0)) {
+  else if (Number(elInputAmount.value % 5 === 0)) {
     elOutput.textContent = 'Buzz';
   }
   //Agar kiritilgan son 3 ga qoldiqiz bo'linsa ekranda Fizz so'zi chiqadi
-  else if (Number(elInputAmount.value % 3 ===0)) {
+  else if (Number(elInputAmount.value % 3 === 0)) {
     elOutput.textContent = 'Fizz';
   }
   //Agar kiritilgan son 5ga ham 3ga ham bo'linmasa ekranda kiritilgan son chiqadi
